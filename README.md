@@ -8,3 +8,7 @@ Usage:
 Select from: 1:First, 2:Second, 3:Third : 2
 'Second'
 >>>
+
+Installation:
+sudo ./setup.py
+
