@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: selecter
+Version: 0.1
+Summary: simplify selecting from a list by enumerating it
+Home-page: https://github.com/johnbiederstedt/selecter
+Author: johnbiederstedt
+Author-email: john@johnsmail.net
+License: MIT
+Description: selecter is a very simple function to facilitate ease
+        in selecting from a list of items by assigning a 
+        number to each and asking the user to select a
+        number.
+        Usage:
+        >>> from selecter import selecter
+        >>> selecter(['First', 'Second', 'Third'])
+        Select from: 1:First, 2:Second, 3:Third : 2
+        'Second'
+        >>>
+        
+Keywords: list selection
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
